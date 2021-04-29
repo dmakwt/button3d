@@ -31,8 +31,8 @@ class Button3d extends StatefulWidget {
   final double height;
 
   Button3d(
-      {@required this.onPressed,
-      @required this.child,
+      {required this.onPressed,
+      required this.child,
       this.style = Button3dStyle.WHITE,
       this.width = 100.0,
       this.height = 90.0});
